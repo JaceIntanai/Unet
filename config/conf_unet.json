@@ -1,0 +1,19 @@
+{
+    "db_img" : "",
+    "db_label" : "",
+    "load_model" : false,
+    "load_model_path" : "Collection/Unet_lvl2/3_unet1.hdf5",
+    "image_size" : [256,256],
+    "batch_size" : 2,
+    "learning_rate" : 1e-04,
+    "adapt_learning_rate" : true,
+    "epochs" : 50,
+    "kfold" : 5,
+    "startAtFold" : 0,
+    "source_path" : "Dataset/Unet1_v2/",
+    "test_path" : "Dataset/Unet1_v2/Test/",
+    "result_path" : "Result/Unet1_v3/result_output/",
+    "predict_path" : "Result/Unet1_v3/predict_output/",
+    "model_path" : "Result/Unet1_v3/model_output/",
+    "multi_class" : false
+}
